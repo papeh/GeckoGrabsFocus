@@ -36,7 +36,6 @@ namespace GeckoGrabsFocus
 		private void textBox1_TextChanged(object sender, EventArgs e)
 		{
 			webBrowser1.LoadContent(textBox1.Text, "file:///c:/MayNotExist/doesnotmatter.html", "application/xhtml+xml");
-			webBrowser1.Refresh();
 		}
 	}
 }
